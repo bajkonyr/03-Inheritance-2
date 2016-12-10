@@ -13,7 +13,6 @@ class Keyboard extends Instrument {
         else return false;
     }
 
-
     Boolean isKeyboard() {
         return super.isKeyboard();
     }

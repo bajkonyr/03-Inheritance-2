@@ -20,7 +20,6 @@ class Brass extends Instrument {
         }
         else return true;
     }
-
     Boolean isBrass() {             //This is unbelievable!!! In order to use daddy's method, child must write method type with CAPITAL letter!!!!!!!!!!! This took me 50 min to realize!
         return super.isBrass();
     }
