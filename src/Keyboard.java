@@ -21,6 +21,4 @@ class Keyboard extends Instrument {
     public String  toString(){
         return super.toString()+ "is a"+ (hasPedals() ? " pedalled " : "") + (isKeyboard() ? " keyboard" : "")+" instrument ";
     } // Take a look at this. " ternary operator" is used here to do the simple and clean return.
-
-
 }

@@ -30,13 +30,8 @@ class Woodwind extends Wind{
 
     //boolean isDoubleReed(int value){}
 
-
-
-
     //boolean isWoodwind(){};
 
-
     public String  toString(){ return super.toString()+ "is a "+ a +" reed woodwind ";}
-
 
 }

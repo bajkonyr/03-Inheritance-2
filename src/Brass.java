@@ -28,7 +28,4 @@ class Brass extends Instrument {
     public String  toString(){
         return super.toString()+ "is a"+ (hasValves() ? " valved " : "") + (hasSlide() ? "" : " slide ") +(isBrass() ? "brass" : "")+" instrument ";
     } // Take a look at this. " ternary operator" is used here to do the simple and clean return.
-
-
-
 }

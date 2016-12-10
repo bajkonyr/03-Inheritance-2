@@ -71,5 +71,4 @@ class Instrument  {
 
     public String toString(){return"A " + name+ " makes the sound '"+sound+"', and has the range "+lowRange+"-" +highRange+", and "; }
 
-
 }
