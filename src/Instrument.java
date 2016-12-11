@@ -28,20 +28,18 @@ class Instrument  {
     }
 
     Boolean isWind() {
-        boolean a =false;
         if (name=="clarinet" || name=="trumpet" || name=="trombone" || name=="oboe")
-            a=true;
-        return a;
+            return true;
+        else
+            return false;
     }
     Boolean isWoodwind(){
-        boolean a =false;
         if (name=="clarinet" || name=="oboe")
-            a=true;
-        return a;
+            return true;
+        return false;
     }
 
     Boolean isBrass() {
-
         if (name=="trumpet" || name=="trombone")
             return true;
 
@@ -49,24 +47,24 @@ class Instrument  {
     }
 
     Boolean isKeyboard() {
-
-        boolean a =false;
         if (name=="harpsichord" || name=="piano")
-            a=true;
-        return a;
+            return true;
+        else
+            return false;
     }
+
     Boolean isPercussion(){
-        boolean a =false;
         if (name=="harp" || name=="timpani")
-            a=true;
-        return a;
+            return true;
+        else
+            return false;
     }
 
     Boolean isStrings(){
-        boolean a =false;
         if (name=="violin" || name=="guitar")
-            a=true;
-        return a;
+            return true;
+        else
+            return false;
     }
 
     public String toString(){return"A " + name+ " makes the sound '"+sound+"', and has the range "+lowRange+"-" +highRange+", and "; }
