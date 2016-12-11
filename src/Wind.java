@@ -7,7 +7,14 @@ class Wind extends Instrument {
         this.hasReed=hasAReed;
     }
 
-    //boolean hasReed(){hasReed=false;}
+    boolean hasReed(){
+        if (hasReed)
+       return true;
+        else
+            return false;
+    }
 
-    // boolean isWind(){};
+    Boolean isWind(){
+        return super.isWind();
+    }
 }

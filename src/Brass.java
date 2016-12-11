@@ -1,9 +1,9 @@
-class Brass extends Instrument {
+class Brass extends Wind {
 
     boolean valved;
 
     Brass(String name, String sound, String lowRange, String highRange, boolean valved){
-        super(name,sound,lowRange,highRange);
+        super(name,sound,lowRange,highRange, valved);
         this.valved=valved;
     }
 
