@@ -9,7 +9,7 @@ class Wind extends Instrument {
 
     boolean hasReed(){
         if (hasReed)
-       return true;
+            return true;
         else
             return false;
     }
